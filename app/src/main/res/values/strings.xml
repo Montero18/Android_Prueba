@@ -1,0 +1,12 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">ExamenUT2_DavidMonteroBellon</string>
+    <string name="añadirActividad">Añadir Actividad</string>
+    <string name="database">Base de Datos</string>
+    <string name="tituloSumarRestar">Actividad para sumar y restar</string>
+
+    <string name="insertar">Insertar Grupo</string>
+    <string name="nombreGrupo">Introduzca el nombre del grupo</string>
+    <string name="nacionalidad">Introduzca la nacionalidad</string>
+    <string name="genero">Introduzca el genero</string>
+    <string name="yearCreacion">Intrduzca el año de creacion</string>
+</resources>

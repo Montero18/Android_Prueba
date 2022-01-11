@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SumarRestar">
+
+    <TextView
+        android:id="@+id/tituloSumarRestar"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_centerHorizontal="true"
+        android:text="@string/tituloSumarRestar"
+        android:textAlignment="center"
+        android:textColor="#079F8D"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/boton0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:text="0" />
+
+    <Button
+        android:id="@+id/botonSumar1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/boton0"
+        android:layout_toRightOf="@id/boton0"
+        android:text="+1" />
+
+    <Button
+        android:id="@+id/botonSumar2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/botonSumar1"
+        android:layout_toRightOf="@id/botonSumar1"
+        android:text="+2" />
+
+    <Button
+        android:id="@+id/botonRestar1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/boton0"
+        android:layout_toRightOf="@id/boton0"
+        android:text="-1" />
+
+    <Button
+        android:id="@+id/botonRestar2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/botonRestar1"
+        android:layout_toRightOf="@id/botonRestar1"
+        android:text="-2" />
+
+    <TextView
+        android:id="@+id/resultado"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="21dp"
+        android:gravity="bottom"
+        android:text="0"
+        android:textAlignment="center"
+        android:textSize="24sp" />
+</RelativeLayout>

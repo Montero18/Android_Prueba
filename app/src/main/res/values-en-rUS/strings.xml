@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ExamUT2_DavidMonteroBellon</string>
+    <string name="añadirActividad">Add Activity</string>
+    <string name="database">Database</string>
+    <string name="tituloSumarRestar">Activity to add and subtract</string>
+
+    <string name="insertar">Insert Group</string>
+    <string name="nombreGrupo">Enter group name</string>
+    <string name="nacionalidad">Enter nacionality</string>
+    <string name="genero">Enter the musical genre</string>
+    <string name="yearCreacion">Enter creation`s year</string>
+</resources>
